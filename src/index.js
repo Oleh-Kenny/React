@@ -22,9 +22,7 @@ const App = () =>{
                     <h1>Education:<span>secondary, junior specialist</span></h1>
                     <h1>Professional Skills:<span>Computer engineer</span></h1>
                     <h1>Personal skills:<span>junior specialist</span></h1>
-
                 </div>
-
             </section>
         </main>
         </Fragment>
