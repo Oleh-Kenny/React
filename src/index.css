@@ -38,6 +38,7 @@
   top: 0;
   left: 0;
   text-shadow:0px 0px 100px rgba(11, 124, 199, 0.5) ;
+   animation: spanL 10s ease-in-out infinite;
 }
 
 body{
@@ -76,6 +77,14 @@ h1{
 
  
 }
+
+@keyframes spanL{
+  0%{ text-shadow:0px 0px 100px rgba(11, 124, 199, 0.5) ;}
+  20%{text-shadow:0px 0px 100px rgba(76, 74, 136, 0.5) ;}
+  40%{text-shadow:0px 0px 100px rgba(161, 187, 146, 0.5) ;}
+  80%{text-shadow:0px 0px 100px rgba(199, 133, 11, 0.767) ;}
+}
+
 span{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   letter-spacing: 2px;
